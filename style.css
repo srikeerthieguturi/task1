@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #222;
+  color: white;
+}
+
+.player {
+  width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+  background: #333;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+li {
+  padding: 5px;
+  cursor: pointer;
+}
+li.active {
+  background: #555;
+}
+
+.controls button {
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: white;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#progress {
+  flex: 1;
+}
+
+.volume {
+  margin-top: 10px;
+}
